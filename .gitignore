@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+*.py[cod]
+.DS_Store
+outputs/runtime_check.json
+outputs/runtime_check.csv

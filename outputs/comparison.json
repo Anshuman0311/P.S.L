@@ -1,0 +1,503 @@
+{
+  "version_a_clauses": 49,
+  "version_b_clauses": 48,
+  "changed_clauses": 15,
+  "added_clauses": 0,
+  "removed_clauses": 1,
+  "edited_clauses": 14,
+  "change_type_counts": {
+    "modality_changed": 4,
+    "negation_signal_changed": 2,
+    "possible_weakening": 2,
+    "removed": 1,
+    "text_changed": 14
+  },
+  "changes": [
+    {
+      "clause_id": "CLS-003",
+      "title": "SERVICE LEVELS",
+      "title_a": "SERVICE LEVELS",
+      "title_b": "SERVICE LEVELS",
+      "change_types": [
+        "text_changed",
+        "modality_changed"
+      ],
+      "version_a": "Provider must maintain monthly platform availability of at least 99.5%, measured excluding scheduled maintenance notified at least five Business Days in advance. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Provider should maintain monthly platform availability of at least 98.0%, measured excluding scheduled maintenance notified at least two Business Days in advance. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": "must"
+        },
+        {
+          "type": "added",
+          "text": "should"
+        },
+        {
+          "type": "removed",
+          "text": "99"
+        },
+        {
+          "type": "added",
+          "text": "98"
+        },
+        {
+          "type": "removed",
+          "text": "5"
+        },
+        {
+          "type": "added",
+          "text": "0"
+        },
+        {
+          "type": "removed",
+          "text": "five"
+        },
+        {
+          "type": "added",
+          "text": "two"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-006",
+      "title": "FEES AND INVOICING",
+      "title_a": "FEES AND INVOICING",
+      "title_b": "FEES AND INVOICING",
+      "change_types": [
+        "text_changed"
+      ],
+      "version_a": "Customer shall pay undisputed invoices within thirty calendar days after receipt. Provider must separately identify taxes, expenses, and applicable purchase-order references. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Customer shall pay undisputed invoices within sixty calendar days after receipt. Provider must separately identify taxes, expenses, and applicable purchase-order references. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": "thirty"
+        },
+        {
+          "type": "added",
+          "text": "sixty"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-012",
+      "title": "SUBCONTRACTING",
+      "title_a": "SUBCONTRACTING",
+      "title_b": "SUBCONTRACTING",
+      "change_types": [
+        "text_changed",
+        "modality_changed",
+        "possible_weakening"
+      ],
+      "version_a": "Provider may not subcontract a material obligation without Customer's prior written consent. Provider remains responsible for approved subcontractors' acts and omissions. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Provider may subcontract a material obligation without Customer's prior written consent, provided Provider remains responsible for approved subcontractors' acts and omissions. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": " not"
+        },
+        {
+          "type": "removed",
+          "text": "."
+        },
+        {
+          "type": "added",
+          "text": ", provided"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-016",
+      "title": "SECURITY INCIDENT",
+      "title_a": "SECURITY INCIDENT",
+      "title_b": "SECURITY INCIDENT",
+      "change_types": [
+        "text_changed",
+        "negation_signal_changed"
+      ],
+      "version_a": "Provider must notify Customer without undue delay and in any event within forty-eight hours after confirming unauthorised access to Customer Data. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Provider must notify Customer within five Business Days after confirming unauthorised access to Customer Data. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": "without undue delay and in any event "
+        },
+        {
+          "type": "removed",
+          "text": "forty-eight"
+        },
+        {
+          "type": "added",
+          "text": "five"
+        },
+        {
+          "type": "removed",
+          "text": "hours"
+        },
+        {
+          "type": "added",
+          "text": "Business Days"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-018",
+      "title": "DATA LOCATION",
+      "title_a": "DATA LOCATION",
+      "title_b": "DATA LOCATION",
+      "change_types": [
+        "text_changed",
+        "modality_changed",
+        "negation_signal_changed",
+        "possible_weakening"
+      ],
+      "version_a": "Provider shall not transfer Customer Data outside the Approved Region without Customer's prior written authorisation. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Provider may transfer Customer Data outside the Approved Region after giving Customer ten Business Days' prior written notice. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": "shall not"
+        },
+        {
+          "type": "added",
+          "text": "may"
+        },
+        {
+          "type": "removed",
+          "text": "without"
+        },
+        {
+          "type": "added",
+          "text": "after giving"
+        },
+        {
+          "type": "added",
+          "text": " ten Business Days"
+        },
+        {
+          "type": "removed",
+          "text": "s"
+        },
+        {
+          "type": "removed",
+          "text": "authorisation"
+        },
+        {
+          "type": "added",
+          "text": "notice"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-021",
+      "title": "WORK PRODUCT",
+      "title_a": "WORK PRODUCT",
+      "title_b": "WORK PRODUCT",
+      "change_types": [
+        "text_changed"
+      ],
+      "version_a": "To the extent permitted by law, Provider hereby assigns to Customer all right, title, and interest in bespoke Deliverables created specifically and paid for under a Statement of Work. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Provider shall grant Customer a non-exclusive, worldwide licence to use bespoke Deliverables for internal business operations; ownership remains with Provider. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": "To"
+        },
+        {
+          "type": "added",
+          "text": "Provider"
+        },
+        {
+          "type": "removed",
+          "text": "the"
+        },
+        {
+          "type": "added",
+          "text": "shall"
+        },
+        {
+          "type": "removed",
+          "text": "extent"
+        },
+        {
+          "type": "added",
+          "text": "grant"
+        },
+        {
+          "type": "removed",
+          "text": "permitted"
+        },
+        {
+          "type": "added",
+          "text": "Customer"
+        },
+        {
+          "type": "removed",
+          "text": "by"
+        },
+        {
+          "type": "added",
+          "text": "a"
+        },
+        {
+          "type": "removed",
+          "text": "law"
+        },
+        {
+          "type": "added",
+          "text": "non-exclusive"
+        },
+        {
+          "type": "removed",
+          "text": "Provider"
+        },
+        {
+          "type": "added",
+          "text": "worldwide"
+        },
+        {
+          "type": "removed",
+          "text": "hereby assigns"
+        },
+        {
+          "type": "added",
+          "text": "licence"
+        },
+        {
+          "type": "removed",
+          "text": "Customer all right, title, and interest in"
+        },
+        {
+          "type": "added",
+          "text": "use"
+        },
+        {
+          "type": "removed",
+          "text": "created specifically and paid "
+        },
+        {
+          "type": "removed",
+          "text": "under"
+        },
+        {
+          "type": "added",
+          "text": "internal"
+        },
+        {
+          "type": "removed",
+          "text": "a"
+        },
+        {
+          "type": "added",
+          "text": "business"
+        },
+        {
+          "type": "removed",
+          "text": "Statement"
+        },
+        {
+          "type": "added",
+          "text": "operations;"
+        },
+        {
+          "type": "removed",
+          "text": "of"
+        },
+        {
+          "type": "added",
+          "text": "ownership"
+        },
+        {
+          "type": "removed",
+          "text": "Work"
+        },
+        {
+          "type": "added",
+          "text": "remains with Provider"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-024",
+      "title": "WARRANTY REMEDY",
+      "title_a": "WARRANTY REMEDY",
+      "title_b": "WARRANTY REMEDY",
+      "change_types": [
+        "text_changed"
+      ],
+      "version_a": "Provider shall, at its expense, re-perform non-conforming Services or correct the affected Deliverable within a commercially reasonable period. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Provider shall, at its expense, re-perform non-conforming Services or correct the affected Deliverable within a commercially reasonable period. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted. INTENTIONALLY OMITTED IN VERSION B — CLAUSE REMOVED",
+      "diff": [
+        {
+          "type": "added",
+          "text": " INTENTIONALLY OMITTED IN VERSION B — CLAUSE REMOVED"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-025",
+      "title": "DISCLAIMER",
+      "title_a": "DISCLAIMER",
+      "title_b": null,
+      "change_types": [
+        "removed"
+      ],
+      "version_a": "Except as expressly stated, all implied warranties are excluded to the maximum extent permitted by applicable law. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": null,
+      "diff": []
+    },
+    {
+      "clause_id": "CLS-026",
+      "title": "INDEMNITY BY PROVIDER",
+      "title_a": "INDEMNITY BY PROVIDER",
+      "title_b": "INDEMNITY BY PROVIDER",
+      "change_types": [
+        "text_changed"
+      ],
+      "version_a": "Provider shall defend and indemnify Customer against third-party claims alleging that an unmodified Deliverable infringes a third party's intellectual-property rights. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Provider shall defend and indemnify Customer against third-party claims alleging that an unmodified Deliverable infringes a third party's intellectual-property rights, subject to a cap equal to fees paid in the preceding three months. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "added",
+          "text": ", subject to a cap equal to fees paid in the preceding three months"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-029",
+      "title": "LIMITATION OF LIABILITY",
+      "title_a": "LIMITATION OF LIABILITY",
+      "title_b": "LIMITATION OF LIABILITY",
+      "change_types": [
+        "text_changed"
+      ],
+      "version_a": "Each Party's aggregate liability shall not exceed the fees paid or payable in the twelve months preceding the event giving rise to the claim. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Each Party's aggregate liability shall not exceed the fees paid or payable in the three months preceding the event giving rise to the claim. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": "twelve"
+        },
+        {
+          "type": "added",
+          "text": "three"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-031",
+      "title": "LIABILITY CARVE-OUTS",
+      "title_a": "LIABILITY CARVE-OUTS",
+      "title_b": "LIABILITY CARVE-OUTS",
+      "change_types": [
+        "text_changed"
+      ],
+      "version_a": "The liability cap shall not apply to fraud, wilful misconduct, death or personal injury caused by negligence, or a Party's payment obligations. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "The liability cap shall not apply to fraud, wilful misconduct, or a Party's payment obligations. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": ", death or personal injury caused by negligence"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-040",
+      "title": "RENEWAL",
+      "title_a": "RENEWAL",
+      "title_b": "RENEWAL",
+      "change_types": [
+        "text_changed"
+      ],
+      "version_a": "After the initial period, this Agreement shall renew for successive one-year periods unless either Party gives at least sixty days' written notice of non-renewal. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "After the initial period, this Agreement shall renew for successive one-year periods unless either Party gives at least thirty days' written notice of non-renewal. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": "sixty"
+        },
+        {
+          "type": "added",
+          "text": "thirty"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-041",
+      "title": "TERMINATION FOR CAUSE",
+      "title_a": "TERMINATION FOR CAUSE",
+      "title_b": "TERMINATION FOR CAUSE",
+      "change_types": [
+        "text_changed"
+      ],
+      "version_a": "Either Party may terminate this Agreement for material breach not cured within thirty days after written notice specifying the breach. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Either Party may terminate this Agreement for material breach not cured within fifteen days after written notice specifying the breach. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": "thirty"
+        },
+        {
+          "type": "added",
+          "text": "fifteen"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-043",
+      "title": "EXIT ASSISTANCE",
+      "title_a": "EXIT ASSISTANCE",
+      "title_b": "EXIT ASSISTANCE",
+      "change_types": [
+        "text_changed",
+        "modality_changed"
+      ],
+      "version_a": "Upon expiry or termination, Provider shall provide up to forty hours of reasonable transition assistance at the rates stated in the applicable Statement of Work. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Upon expiry or termination, Provider may provide up to twenty hours of transition assistance at the rates stated in the applicable Statement of Work. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": "shall"
+        },
+        {
+          "type": "added",
+          "text": "may"
+        },
+        {
+          "type": "removed",
+          "text": "forty"
+        },
+        {
+          "type": "added",
+          "text": "twenty"
+        },
+        {
+          "type": "removed",
+          "text": " reasonable"
+        }
+      ]
+    },
+    {
+      "clause_id": "CLS-046",
+      "title": "NOTICES",
+      "title_a": "NOTICES",
+      "title_b": "NOTICES",
+      "change_types": [
+        "text_changed"
+      ],
+      "version_a": "Notices must be in writing and delivered by recognised courier or email to the addresses specified in the Order Form, with delivery confirmation. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "version_b": "Notices must be in writing and delivered by recognised courier to the addresses specified in the Order Form. For purposes of this clause, references to a Party include its permitted successors and assigns. Any approval, consent, waiver, or determination under this clause must be recorded in writing by an authorised representative. The Parties shall interpret this provision consistently with the definitions, schedules, order of precedence, and applicable mandatory law. If any part is unenforceable, the remaining provisions continue in effect to the extent permitted.",
+      "diff": [
+        {
+          "type": "removed",
+          "text": "or email "
+        },
+        {
+          "type": "removed",
+          "text": ", with delivery confirmation"
+        }
+      ]
+    }
+  ]
+}

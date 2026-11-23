@@ -1,0 +1,22 @@
+{
+  "project": "P.L.S.",
+  "version": "1.0-demo",
+  "pages": {
+    "version_a": 50,
+    "version_b": 49
+  },
+  "comparison": {
+    "version_a_clauses": 49,
+    "version_b_clauses": 48,
+    "changed_clause_ids_detected": 15,
+    "change_signal_counts": {
+      "modality_changed": 4,
+      "text_changed": 9,
+      "possible_weakening": 2,
+      "negation_signal_changed": 2,
+      "removed": 1
+    }
+  },
+  "pytest_exit_code": "0",
+  "disclaimer": "Synthetic demo only; not legal advice."
+}

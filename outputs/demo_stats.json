@@ -1,0 +1,15 @@
+{
+  "version_a_clauses": 49,
+  "version_b_clauses": 48,
+  "changed_clauses": 15,
+  "added_clauses": 0,
+  "removed_clauses": 1,
+  "edited_clauses": 14,
+  "change_type_counts": {
+    "modality_changed": 4,
+    "negation_signal_changed": 2,
+    "possible_weakening": 2,
+    "removed": 1,
+    "text_changed": 14
+  }
+}
